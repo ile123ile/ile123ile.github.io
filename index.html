@@ -10,11 +10,34 @@
 
 <H1><a href="index.html">Eli Goldin</a></H1>
 
-I am a third year PhD student studying cryptography at <a href="http://www.cs.nyu.edu/crg/cryptography/">NYU</a>. I am advised by <a href="https://cs.nyu.edu/~mmb586/index.html">Marshall Ball</a> and <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>. <br/><br/>
+I am a fourth year PhD student studying cryptography at <a href="http://www.cs.nyu.edu/crg/cryptography/">NYU</a>. I am advised by <a href="https://cs.nyu.edu/~mmb586/index.html">Marshall Ball</a> and <a href="https://cs.nyu.edu/~dodis/">Yevgeniy Dodis</a>. <br/><br/>
 
-My research mainly aims to answer the question: "how do you do cryptography when the cryptographers are out to get you?" Security practitioners often use cryptographic primitives in a black-box manner. But sometimes, these black-boxes are themselves malicious. This may be caused by a backdoor inserted by some third party or just an unseen attack. I care about provably helping practitioners stuck in such a hopeless situation recover some security.
+My interests are split between classical and quantum cryptography.
 <br><br>
+
+My classical research mainly aims to answer the question: "how do you do cryptography when the cryptographers are out to get you?" Security practitioners often use cryptographic primitives in a black-box manner. But sometimes, these black-boxes are themselves malicious. This may be caused by a backdoor inserted by some third party or just an unseen attack. I care about provably helping practitioners stuck in such a hopeless situation recover some security.
+<br><br>
+
+In the quantum setting, my research focuses on the foundations of quantum cryptography. I care about fundamentally quantum primitives, which require quantum computers to even execute. I am interested in the necessary assumptions for achieving quantum cryptography, and mapping out the relationships between quantum primitives. I have a particular interest in the "MicroCrypt" setting, where one may hope to achieve useful cryptoraphy using quantum computers even if one-way functions and all of classical cryptography does not exist.
+<br><br>
+
 I am also generally interested in the theory of cryptography, in particular randomness extraction and quantum cryptography.
+<br><br>
+
+I have a Bacon-Erdős number of 5.<br>
+<button title="Click to Show/Hide Content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Proof</button>
+<div id="spoiler" style="display:none">
+  My Bacon number is 2:<br>
+  I was an extra in <a href="https://www.imdb.com/title/tt0857275/">Wonderful World</a> with Matthew Broderick.<br>
+  <img src='./images/bacon.jpg' alt='Me in Wonderful World as a kid' border=2 height='320'>
+  <br>
+  Matthew Broderick was in <a href="https://www.imdb.com/title/tt0096094/">She's Having a Baby</a> with Kevin Bacon.
+  <br><br>
+
+  My Erdős number is 3:<br>
+  I <a href="https://eprint.iacr.org/2025/293">co-authored</a> with Yevgeniy Dodis, who <a href="https://ieeexplore.ieee.org/document/1181962">co-authored</a> with Joel Spencer, who <a href="https://www.sciencedirect.com/science/article/pii/0166218X91900404">co-authored</a> with Paul Erdős.
+</div>
+
 
 <H3>
 
@@ -35,9 +58,34 @@ Publications</a>
 Papers are presented in reverse chronological order. Authors on all papers are in alphabetical order.
 <ol>
   <li>
-    <p><strong>On the Computational Hardness of Quantum One-Wayness</strong> <a href="./papers/owsgbreaking.pdf">[pdf]</a> <br />
+        <p><strong>Anamorphic-Resistant Encryption; Or Why the Encryption Debate is Still Alive</strong> <a href="https://eprint.iacr.org/2025/293">[pdf]</a> <br />
+          <a href="https://cs.nyu.edu/~dodis/"><span style="color:#333">Yevgeniy Dodis</span></a>, <span style="color:#911">Eli Goldin</span><br />
+        <strong>Manuscript</strong></p>
+  </li>
+  <li>
+        <p><strong>CountCrypt: Quantum Cryptography between QCMA and PP</strong> <a href="https://arxiv.org/abs/2410.14792">[pdf]</a> <br />
+          <span style="color:#911">Eli Goldin</span>, <a href="https://www2.yukawa.kyoto-u.ac.jp/~tomoyuki.morimae/index.html"><span style="color:#333">Tomoyuki Morimae</span></a>, <a href="https://dblp.org/pid/330/3303.html"><span style="color:#333">Saachi Mutreja</span></a>, <a href="https://sites.google.com/view/takashiyamakawa"><span style="color:#333">Takashi Yamakawa</span></a><br />
+        <strong>Manuscript</strong></p>
+  </li>
+  <li>
+        <p><strong>Random Oracle Combiners: the Merkle-Damgard Way</strong>  <br />
+          <a href="https://cs.nyu.edu/~dodis/"><span style="color:#333">Yevgeniy Dodis</span></a>, <span style="color:#911">Eli Goldin</span>, <a href="https://simons.berkeley.edu/people/peter-hall"><span style="color:#333">Peter Hall</span></a><br />
+        <strong><a href="https://eurocrypt.iacr.org/2025/">EUROCRYPT 2025</a></strong></p>
+  </li>
+  <li>
+        <p><strong>A Meta-Complexity Characterization of Quantum Cryptography</strong> <a href="https://arxiv.org/abs/2410.04984">[pdf]</a> <br />
+          <a href="https://brunopc.github.io/"><span style="color:#333">Bruno Cavalar</span></a>, <span style="color:#911">Eli Goldin</span>, <a href="https://www.graytmatter.com/"><span style="color:#333">Matthew Gray</span></a>, <a href="https://simons.berkeley.edu/people/peter-hall"><span style="color:#333">Peter Hall</span></a><br />
+        <strong><a href="https://eurocrypt.iacr.org/2025/">EUROCRYPT 2025</a></strong></p>
+  </li>
+  <li>
+    <p><strong>On the Computational Hardness of Quantum One-Wayness</strong> <a href="https://arxiv.org/abs/2312.08363">[pdf]</a> <br />
 <a href="https://brunopc.github.io/"><span style="color:#333">Bruno Cavalar</span></a>, <span style="color:#911">Eli Goldin</span>, <a href="https://www.graytmatter.com/"><span style="color:#333">Matthew Gray</span></a>, <a href="https://simons.berkeley.edu/people/peter-hall"><span style="color:#333">Peter Hall</span></a>, <a href="https://www.cs.cornell.edu/~yanyiliu/"><span style="color:#333">Yanyi Liu</span></a>, <a href="https://people.eecs.berkeley.edu/~apelecan/"><span style="color:#333">Angelos Pelecanos</span></a><br />
-<strong>Manuscript</strong></p>
+<strong><a href="https://quantum-journal.org/papers/q-2025-03-27-1679/">Quantum 9</a></strong></p>
+  </li>
+  <li>
+    <p><strong>On Central Primitives for Quantum Cryptography with Classical Communication</strong> <a href="https://eprint.iacr.org/2024/356">[pdf]</a> <br />
+<a href="https://homepage.iis.sinica.edu.tw/~kmchung/"><span style="color:#333">Kai-Min Chung</span></a>, <span style="color:#911">Eli Goldin</span>, <a href="https://www.graytmatter.com/"><span style="color:#333">Matthew Gray</span></a><br />
+<strong><a href="https://crypto.iacr.org/2024/">CRYPTO 2024</a></strong></p>
   </li>
   <li>
     <p><strong>Immunizing Backdoor PRGs</strong> <a href="https://eprint.iacr.org/2023/1778.pdf">[pdf]</a><a href="./talks/tprgs-focs.pptx">[slides]</a> <br />
@@ -46,7 +94,7 @@ Papers are presented in reverse chronological order. Authors on all papers are i
   </li>
   <li>
     <p><strong>Extracting Randomness from Samplable Distributions, Revisited</strong> <a href="papers/quantumextractors.pdf">[pdf]</a> <a href="./talks/extractors.pptx">[slides]</a><br />
-<a href="https://cs.nyu.edu/~mmb586/index.html"><span style="color:#333">Marshall Ball</span></a>, <a href="https://user.eng.umd.edu/~danadach/"><span style="color:#333">Dana Dachman-Soled</span></a>, <span style="color:#911">Eli Goldin</span>, <span style="color:#333">Saachi Mutreja</span><br />
+<a href="https://cs.nyu.edu/~mmb586/index.html"><span style="color:#333">Marshall Ball</span></a>, <a href="https://user.eng.umd.edu/~danadach/"><span style="color:#333">Dana Dachman-Soled</span></a>, <span style="color:#911">Eli Goldin</span>, <a href="https://dblp.org/pid/330/3303.html"><span style="color:#333">Saachi Mutreja</span></a><br />
 <strong><a href="https://focs.computer.org/2023/">FOCS 2023</a></p>
   </li>
   <li>
@@ -76,7 +124,10 @@ Papers are presented in reverse chronological order. Authors on all papers are i
 
 <UL>
 
-<li> Fall 2023: Fundamental Algorithms (NYU CSCI-GA 1170 - taught by Yevgeniy Dodis)
+<li> Fall 2024: Basic Algorithms (NYU CSCI-UA 310 - taught by Rotem Oshman)
+<br>
+
+<li> Fall 2023, Spring 2024, Spring 2025: Fundamental Algorithms (NYU CSCI-GA 1170 - taught by Yevgeniy Dodis)
 <br>
 
 <li> Fall 2022: Basic Algorithms (NYU CSCI-UA 310 - taught by Marshall Ball and Oded Regev)
